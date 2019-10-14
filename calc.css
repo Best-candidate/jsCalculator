@@ -1,0 +1,68 @@
+.wrapper{
+    width: 350px;
+    height: 600px;
+    background-color: coral;
+    position: absolute;
+    margin: 0;
+    border: 2 gray;
+    border-radius: 25px;  
+}
+
+#output{
+    text-align: right;
+    font-size: 50px;
+    font-weight: bold;
+    height: 50%;
+    width: 100%;
+    padding: 20px;
+    padding-top: 250px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.row{
+    height: 10%;
+    padding: 0;
+}
+
+#AC{
+    height: 100%;
+    width: 25%;
+    color: white;
+    background-color: orangered;
+    border: 0;
+    float: left;
+}
+#AC:hover,#equal:hover{
+    background-color: orange;
+    color: black;
+}
+
+#equal{
+    height: 100%;
+    width: 25%;
+    color: white;
+    background-color: orangered;
+    border: 0;
+    float: left;
+    border-bottom-right-radius: 25px;
+}
+.operation{
+    height: 100%;
+    width: 25%;
+    border: 0;
+    color: black;
+    background-color: white;
+    float: left;
+}
+.num{
+    height: 100%;
+    width: 25%;
+    color: black;
+    border: 0;
+    float: left;
+    background-color: white
+}
+.operation:hover,.num:hover{
+    background-color: gray;
+}

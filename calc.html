@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css"> 
+    <script type="text/javascript" src="calc.js"> </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <input id="output" type="text" value="0" readonly>
+        </div>
+        <div class="row">
+            <input type="button" onclick="clearR()" id="AC" value="AC">         
+            <input type="button" onclick="" class="operation" value="X"> 
+            <input type="button" onclick="operate('percent')" class="operation" value="%"> 
+            <input type="button" onclick="operate('division')" class="operation" value="/"> 
+        </div>
+        <div class="row">
+            <input type="button" onclick="numpressed(7)" class="num" value="7">
+            <input type="button" onclick="numpressed(8)" class="num" value="8">
+            <input type="button" onclick="numpressed(9)" class="num" value="9">
+            <input type="button" onclick="operate('multiplication')" class="operation" value="*">
+        </div>
+        <div class="row">
+            <input type="button" onclick="numpressed(4)" class="num" value="4">
+            <input type="button" onclick="numpressed(5)" class="num" value="5">
+            <input type="button" onclick="numpressed(6)" class="num" value="6">
+            <input type="button" onclick="operate('substraction')" class="operation" value="-">
+        </div>
+        <div class="row">
+            <input type="button" onclick="numpressed(1)" class="num" value="1">
+            <input type="button" onclick="numpressed(2)" class="num" value="2">
+            <input type="button" onclick="numpressed(3)" class="num" value="3">
+            <input type="button" onclick="operate('addition')" class="operation" value="+">
+        </div>
+        <div class="row">
+            <input type="button" onclick="" class="num" value="">
+            <input type="button" onclick="numpressed(0)" class="num" value="0">
+            <input type="button" onclick="decimalpressed()" class="num" value=".">
+            <input type="button" onclick="equal()" id="equal" value="=">
+        </div>
+    </div>
+</body>
+</html>
